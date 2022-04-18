@@ -14,7 +14,7 @@ class UserDefaults {
 
   final String name;
 
-  static UserDefaults getInstance([String key]) {
+  static UserDefaults? getInstance([String? key]) {
     key ??= kDefaultKey;
     if (_instances.containsKey(key)) return _instances[key];
     _instances[key] = new UserDefaults._(key);
