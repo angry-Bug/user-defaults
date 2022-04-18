@@ -9,8 +9,3 @@ environment:
 dependencies:
   flutter:
     sdk: flutter
-
-flutter:
-  plugin:
-    androidPackage: io.memspace.flutter.userdefaults
-    pluginClass: UserDefaultsPlugin
